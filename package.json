@@ -1,5 +1,5 @@
 {
-  "name": "https-proxy-agent",
+  "name": "@ihof/https-proxy-agent-timeout",
   "version": "5.0.0",
   "description": "An HTTP(s) proxy `http.Agent` implementation for HTTPS",
   "main": "dist/index",
@@ -12,11 +12,12 @@
     "build": "tsc",
     "test": "mocha --reporter spec",
     "test-lint": "eslint src --ext .js,.ts",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-https-proxy-agent.git"
+    "url": "git://github.com/ihof/node-https-proxy-agent.git"
   },
   "keywords": [
     "https",
@@ -24,10 +25,10 @@
     "endpoint",
     "agent"
   ],
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "author": "IHOF LLC <ihofmonitor@gmail.com> (http://ihofun.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TooTallNate/node-https-proxy-agent/issues"
+    "url": "https://github.com/ihof/node-https-proxy-agent/issues"
   },
   "dependencies": {
     "agent-base": "6",
@@ -52,5 +53,9 @@
   },
   "engines": {
     "node": ">= 6"
+  },
+  "homepage": "https://github.com/ihof/node-https-proxy-agent#readme",
+  "directories": {
+    "test": "test"
   }
 }
