@@ -48,7 +48,7 @@
     "eslint-plugin-react": "7.12.4",
     "mocha": "^6.2.2",
     "proxy": "1",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
     "typescript": "^3.5.3"
   },
   "engines": {
